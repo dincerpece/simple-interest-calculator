@@ -41,6 +41,7 @@ table td {
     background-color: #242222;
     color: white;
     border: 1px solid #767676;
+    border-radius: 4px;
 }
 
 #years {
@@ -49,6 +50,7 @@ table td {
     background-color: #242222;
     color: white;
     border: 1px solid #767676;
+    border-radius: 4px;
 }
 
 .labels {
