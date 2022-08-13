@@ -33,6 +33,11 @@ table td {
     border-radius: 4px;
     margin-top: 30px;
     border: 1px solid #767676;
+    cursor: pointer;
+}
+
+#compute:hover {
+    background-color: #2a2727;
 }
 
 #principal {
@@ -44,6 +49,14 @@ table td {
     border-radius: 4px;
 }
 
+#principal:focus {
+    border: 1px solid #767676;
+    text-shadow: none!important;
+    resize: none;
+    outline: none;
+    background-color: #2a2727;
+}
+
 #years {
     height: 35px;
     width: 200px;
@@ -51,6 +64,14 @@ table td {
     color: white;
     border: 1px solid #767676;
     border-radius: 4px;
+}
+
+#years:focus {
+    border: 1px solid #767676;
+    text-shadow: none!important;
+    resize: none;
+    outline: none;
+    background-color: #2a2727;
 }
 
 .labels {
